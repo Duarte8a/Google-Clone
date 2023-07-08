@@ -1,0 +1,57 @@
+.contenedor-flexible{display: flex;
+background-color: blueviolet;
+border: 0px solid black; padding: 0px; margin: 0px;box-sizing: border-box;}
+
+body{background-color: rgb(255, 252, 252);height: 100vh;}
+
+header{display: flex; justify-content: end; height: 60px; padding: 0 12px;}
+header .option{display: flex; align-items: center; gap: 12px; }
+header .option a {font-family: Arial, sans-serif; text-decoration: none; color: black;}
+header .option a svg {height: 24px; width: 24px;}
+header .option a img {height: 24px; width: 24px;border-radius: 50%;}
+
+main{height: calc(100% - 60px - 90px); display: flex;  justify-content: center; }
+main .container {display: flex; flex-direction: column; align-items: center; gap: 32px;}
+main .container figure {height: 92px; display: flex; flex-direction: column;align-items: center;}
+main .container figure img { height: 100%;}
+main .container .buscador  {display: flex;  gap: 8px; align-items:  center; height: 40px; width: 450px;
+                            padding: 8px 12px; border: 1px solid gray; border-radius: 24px; }
+main .container .buscador input {width: 100%; background-color: transparent; border: none; align-items: center;}
+main .container .buscador input button {border: none; background-color: transparent; align-items: center; 
+                                        justify-content: center; flex-direction: column;}
+
+.buscador-logo{display: inline-block; background-repeat: no-repeat; background-position: center; 
+                width: 20px; height: 20px; color: #3c4043; }
+main .container .buscador button{display: flex; align-items: center; justify-content: center; border: none; background-color: transparent; 
+                                 padding: 12px; border-radius: 4px; color: #3c4043;}
+main .container .boton-buscador{ display: flex; gap: 10px; align-items: center; height: 40px; width: 400px; padding: 8px; }
+.micro-logo{display: inline-block;background-repeat: no-repeat; background-position: center; width: 18px; height: 18px;}
+.cam-logo{display: inline-block; background-repeat: no-repeat; background-position: center; width: 18px; height: 18px; background-size: cover;}
+
+footer{display: flex; flex-direction: column; height: 90px; color:#70757a;  }
+footer section {padding: 0 30px; display: flex; align-items: center; height: 50%;}
+footer section.end-info {display: flex; justify-content: space-between;border-top:70757a solid 1px ; }
+footer section.end-info div{display: flex; gap: 12px;}
+footer section.end-info div a {color: #70757a; text-decoration: none; }
+
+
+.container-flex {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    padding: 5px 14px;
+    align-items: center;
+    border-radius: 2em;
+    border: none;
+    box-shadow: 1px 2px 3px gray;
+}
+
+.buttonPencil {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.pencil {
+    fill: gray;
+  }
